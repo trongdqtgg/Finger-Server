@@ -1,0 +1,25 @@
+{
+  "thirdPartyApis": [
+    {
+      "id": "api_1",
+      "name": "HIS JAVA ZKTECO",
+      "enabled": true,
+      "method": "GET",
+      "url": "http://localhost:8080/app/get-image-base64"
+    },
+    {
+      "id": "api_2",
+      "name": "HIS JAVA EVOLIS",
+      "enabled": true,
+      "method": "GET",
+      "url": "192.168.100.100:1002"
+    },
+    {
+      "id": "api_3",
+      "name": "HIS L2",
+      "enabled": true,
+      "method": "GET",
+      "url": "http://localhost:18622/finger/getcapture"
+    }
+  ]
+}
